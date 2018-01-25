@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
+int r,a,m;
 printf("\n enter the number");
-scanf("%d%d%d",&a,&b,&c);
-if((a<b)&&(a<c))
+scanf("%d%d%d",&r,&a,&m);
+if((r<a)&&(r<m))
 {
-printf("\n a is greater");
+printf("\n r is greater");
 }
 else if(b<c)
 {
-printf("\n b is greater");
+printf("\n a is greater");
 }}
