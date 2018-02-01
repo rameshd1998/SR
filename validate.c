@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+ int a;
+	scanf("%d",&a);
+	if(a>=0&&a<=20)
+	{
+		printf(" yes");
+	}
+	else
+	{
+		printf("no ");
+	}
+	return 0;
+}
