@@ -1,24 +1,25 @@
 #include <stdio.h>
-int main(void) {
-	int a[3],i,j,b;
+int main(void) 
+{
+	int b[3],i,j,c;
 	printf("\nEnter the elements");
 	for(i=0;i<3;i++)
 	{
-	    scanf("%d",&a[i]);
+	    scanf("%d",&b[i]);
 	}
 	for(i=0;i<3;i++)
 	{
 	 for(j=i+1;j<3;j++)
      {
     
-	if(a[i]>a[j])
+	if(b[i]>b[j])
 	{
-		b=a[j];
-		a[j]=a[i];
-		a[i]=b;
+		c=b[j];
+		b[j]=b[i];
+		b[i]=c;
 	}
     }
 	}
-	printf("\nThe median element is:%d",a[1]);
+	printf("\nThe median element is:%d",b[1]);
 	return 0;
 }
