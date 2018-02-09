@@ -7,7 +7,7 @@ int main()
     printf("Enter an integer: ");
     scanf("%d", &a);
 
-    while(n != 0)
+    while(a != 0)
     {
        
         a/= 10;
