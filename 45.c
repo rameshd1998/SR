@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main()
 {
-   int n;
+   int a;
     int count = 0;
 
     printf("Enter an integer: ");
-    scanf("%d", &n);
+    scanf("%d", &a);
 
     while(n != 0)
     {
        
-        n /= 10;
+        a/= 10;
         ++count;
     }
 
